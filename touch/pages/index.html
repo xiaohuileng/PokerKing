@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <link rel="stylesheet" rev="stylesheet" href="../css/common.css" type="text/css">
+    <link rel="stylesheet" rev="stylesheet" href="../css/index.css" type="text/css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="header-top"> 
+        <a id="do-menu" class="top-menu-icon" href="#">导航</a>
+        <span>首页</span> 
+        <a class="logo" href="#">扑克王</a>
+    </header>
+    <div class="banner-img">
+        <img src="../img/banner.jpg" />
+    </div>
+    <div class="content">
+        <div class="nav-list clearfix">
+            <a href="#">
+                <img src="../img/news.png">
+            </a>
+            <a href="#">
+                <img src="../img/intro.png">
+            </a>
+            <a href="#">
+                <img src="../img/activity.png">
+            </a>
+            <a href="#">
+                <img src="../img/download.png">
+            </a>
+            <!-- 客服 -->
+            <a href="#" class="service">
+                <img src="../img/kefu.png">
+            </a>
+        </div>
+
+        <!-- 精彩视频 -->
+        <h2>精彩视频 <a class="more-link" href="#">更多视频</a></h2>
+        <div class="video-list">
+            <a href="#">
+                <img src="../img/index_video01.jpg">
+            </a>
+            <a href="#">
+                <img src="../img/index_video02.jpg">
+            </a>
+            <a href="#">
+                <img src="../img/index_video03.jpg">
+            </a>
+            <a href="#">
+                <img src="../img/index_video04.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="../img/footer.jpg">
+        <p>©2018撲克王 版权所有 All rights Reserved</p>
+    </div>
+
+    <!-- 导航栏浮层 -->
+    <div class="top-menu" id="top-menu">
+        <div class="tp-menu-bg"></div>
+        <div class="top-menu-box">
+            <h2><i id="close-menu" class="fork"></i></h2>
+            <ul>
+                <li><a href="#" class="active">首页</a></li>
+                <li><a href="#">官方新闻</a></li>
+                <li><a href="#">游戏介绍</a></li>
+                <li><a href="#">优惠活动</a></li>
+                <li><a href="#">游戏下载</a></li>
+                <li><a href="#">在线客服</a></li>
+                <li><a href="#">精彩视频</a></li>
+            </ul>
+            <a href="#" class="kefu-tel">客服电话：4001201721</a>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+var openMenubtn=document.getElementById('do-menu');
+var closeMenubtn=document.getElementById('close-menu');
+var menuPop=document.getElementById('top-menu');
+
+openMenubtn.onclick=function(){
+   menuPop.style.display='block';
+  return false;
+}
+closeMenubtn.onclick=function(){
+   menuPop.style.display='none';
+  return false;
+}
+</script>
+</html>
