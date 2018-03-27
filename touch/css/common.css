@@ -96,10 +96,11 @@ tap-highlight-color: rgba(0,0,0,0);
     background-size: cover;
 }
 .content h2{
-    width: 345px;
+    width: 91%;
     margin: 0 auto;
     font-size: 16px;
     color: #fff;
+    padding: 0 1px;
 }
 .content h2 a{
     font-size: 12px;
