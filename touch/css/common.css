@@ -83,17 +83,41 @@ tap-highlight-color: rgba(0,0,0,0);
     height: 27px;
     font-size: 0;
 }
-.banner-img img{
+/*.banner-img:after{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 1px;
+    border-bottom: 1px solid #8f7042;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+.banner-img img,.game-detail-box img{
     width: 100%;
     height: 100%; 
     line-height: 100%; 
     display: block; 
 }
 .content{
-    height: 565px;
+    min-height: 84vh;
     background: #686868 url(../img/bg.jpg) no-repeat top center;
     -webkit-background-size: cover;
     background-size: cover;
+    overflow: hidden;
+}
+.cont-wrap{
+    background: #242425;
+    min-height: 71vh;
 }
 .content h2{
     width: 91%;
@@ -116,7 +140,7 @@ tap-highlight-color: rgba(0,0,0,0);
     padding-bottom: 12px;
 }
 .footer img{
-    width: 375px;
+    width: 100%;
     margin-bottom: 8px;
 }
 

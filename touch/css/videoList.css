@@ -1,0 +1,80 @@
+.video-list{
+    width: 100%;
+}
+.video-list ul{
+    padding-left: 4%;
+    margin-top: 4%;
+}
+.video-list li{
+    float: left;
+    width: calc(46% - 1px);
+    margin-right: 4%;
+    margin-bottom: 6%;
+    text-align: center;
+}
+.video-list a{
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+}
+.nav-list a img,.video-list a img{
+    width: 100%;
+    border-radius: 2px;
+}
+.video-list a:before{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    border: 1px solid #c4a16d;
+    border-radius:2px;/* 也可以设置圆角 */
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-box-shadow: 0 4px 7px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 4px 7px rgba(0,0,0,0.8);
+    box-shadow: 0 4px 7px rgba(0,0,0,0.8);
+}
+.video-list li h2{
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+}
+.video-list li p{
+    color: #999;
+    font-size: 12px;
+}
+.video-list .arrow-icon{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #999;
+    position: relative;
+    border-radius: 2px;
+    vertical-align: -2px;
+    margin-right: 4px;
+}
+.video-list .arrow-icon i{
+    position: absolute;
+    width:0; 
+    height:0;
+    left: 4px;
+    top: 2px;
+    border-left-width: 6px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-style: solid;
+    border-color:transparent transparent transparent #fff;
+}

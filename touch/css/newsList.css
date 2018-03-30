@@ -1,0 +1,28 @@
+.news-wrap {
+	padding-left: 20px;
+}
+.news-wrap ul li{
+	height: 53px;
+	line-height: 53px;
+	font-size: 12px;
+	border-bottom: 1px dashed #303030;
+}
+.news-wrap ul li:last-child{
+	border-bottom: 0;
+}
+.news-wrap ul li a{
+	display: inline-block;
+	width: 70%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #999;
+}
+.news-wrap ul li span{
+	float: right;
+	color: #666;
+	padding-right: 15px;
+}
+.news-wrap ul li a .red-icon{
+	color: #b0160a;
+}

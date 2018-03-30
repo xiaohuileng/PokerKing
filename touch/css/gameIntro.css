@@ -1,0 +1,11 @@
+.intro-list{
+    padding: 2px 0 23px;
+}
+.intro-list a{
+    display: block;
+    padding: 10px 15px 0;
+}
+.intro-list a img{
+    width: 100%;
+    border-radius: 5px;
+}

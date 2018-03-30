@@ -1,0 +1,28 @@
+.btn-box{
+    width: 375px;
+    height: 297px;
+    background: url(../img/download-border.png) no-repeat;
+    background-size: 100%;
+    margin: 72px auto 0;
+    text-align: center;
+    overflow: hidden;
+}
+.btn-box a{
+    display: block;
+    width: 200px;
+    height: 54px;
+    line-height: 54px;
+    margin: 55px auto 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.btn-box a.ios-btn{
+    background: url(../img/ios.png) no-repeat;
+    background-size: 100%;
+}
+.btn-box a.android-btn{
+    background: url(../img/android.png) no-repeat;
+    background-size: 100%;
+}
+
