@@ -53,42 +53,24 @@ tap-highlight-color: rgba(0,0,0,0);
 /*头部样式*/
 .header-top{
     z-index: 2;
-    position: relative;
-    height: 50px;
-    line-height: 50px;
+    position: fixed;
+    width: 100%;
+    height: 44px;
+    background: #101012;
+    line-height: 44px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     margin-bottom: -50px;
 }
-.header-top .top-menu-icon{
-    position: absolute;
-    background: url(../img/menu.png) no-repeat; 
-    background-size: 20px;
-    top: 15px;
-    left: 20px;
-    z-index: 1;
-    display: block;
-    font-size: 0;
-    width: 20px;
-    height: 20px;
-}
-.header-top .logo {
-    position: absolute;
-    background: url(../img/logo.png) no-repeat; 
-    background-size: 60px;
-    top: 11px;
-    right: 20px;
-    width: 60px;
-    height: 27px;
-    font-size: 0;
-}
-/*.banner-img:after{
+.header-top:after{
     content: "";
-    position: absolute;
+    position: fixed;
     width: 200%;
     height: 1px;
-    border-bottom: 1px solid #8f7042;
+    margin-top: 44px;
+    left: 0;
+    border-bottom: 1px solid #232323;
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
@@ -101,7 +83,30 @@ tap-highlight-color: rgba(0,0,0,0);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}*/
+}
+
+.header-top .top-menu-icon{
+    position: absolute;
+    background: url(../img/menu.png) no-repeat; 
+    background-size: 20px;
+    top: 12px;
+    left: 20px;
+    z-index: 1;
+    display: block;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+}
+.header-top .logo {
+    position: absolute;
+    background: url(../img/logo.png) no-repeat; 
+    background-size: 60px;
+    top: 9px;
+    right: 20px;
+    width: 60px;
+    height: 27px;
+    font-size: 0;
+}
 .banner-img img,.game-detail-box img{
     width: 100%;
     height: 100%; 
